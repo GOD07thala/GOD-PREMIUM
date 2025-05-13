@@ -15,7 +15,7 @@ function startTimer() {
 }
 
 function runPrediction() {
-  const colors = ['Red', 'Green', 'Yellow'];
+  const colors = ['Red', 'Green', 'violet'];
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   document.getElementById('predictedColor').innerText = randomColor;
 
